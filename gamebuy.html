@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>GameHub – The universe of games</title>
+        <title>GameHub – Buy game</title>
         <meta name="description" content="The home page to my first ever website." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="styles.css" rel="stylesheet">
@@ -15,7 +15,7 @@
                 <span></span>
                 <span></span>
                 <ul id="menu">
-                    <a href="index.html"><img src="/images/GameHub_Logo_smaller.png" alt=""></a>
+                    <a href="index.html"><img src="/images/GameHub_Logo_smaller.png" alt="gamehub logo"></a>
                     <a href="games.html">Games</a>
                     <a href="about.html">About</a>
                     <a href="Contact.html">Contact</a>
@@ -26,7 +26,7 @@
         </nav>
         <nav role="navigation">
             <div class="menuMain">
-                <a href="index.html"><img class="image" src="/images/GameHub_Logo_smaller.png" alt=""></a>
+                <a href="index.html"><img class="image" src="/images/GameHub_Logo_smaller.png" alt="gamehub logo"></a>
                 <div class="list">
                     <a href="games.html">Games</a>
                     <a href="about.html">About</a>
@@ -46,27 +46,27 @@
                     </div>
                     <div class="grid-buy">
                         <form action="checkbox">
-                            <input type="checkbox"><label for="pc">Pc</label></input>
-                            <input type="checkbox"><label for="xbox">xbox</label></input>
-                            <input type="checkbox"><label for="PS5">PS5</label></input>
+                            <input type="checkbox" name="pc" id="pc"><label for="pc">Pc</label></input>
+                            <input type="checkbox" name="xbox" id="xbox"><label for="xbox">xbox</label></input>
+                            <input type="checkbox" name="PS5" id="PS5"><label for="PS5">PS5</label></input>
                         </form>
                         <h1>300,-</h1>
                         <form class="payment" action="pay">
                             <label for="name">Cardholder name</label>
-                            <input type="text">
-                            <label for="card-number">Card number</label>
-                            <input type="text" name="" id="">
+                            <input type="text" id="name" name="name">
+                            <label for="card-number" id="card-number" name="card-number">Card number</label>
+                            <input type="text" name="card-number" id="card-number">
                             <div class="buy-split">
                                 <label for="expiration">Expiration date</label>
                                 <label for="cvc">CVC</label>
                                 <input type="text" name="expiration" id="expiration">
-                                <input type="text" name="cvc">
+                                <input type="text" name="cvc" id="cvc">
                             </div>
                             <label for="email">Email</label>
-                            <input type="text">
+                            <input type="text" name="email" id="email">
                         </form>
                         <div class="buy-bottom">
-                        <a class="button2" href="index.html">Purchase</a>
+                        <a class="button1" href="index.html">Purchase</a>
                         </div>
                     </div>
                 </div>
