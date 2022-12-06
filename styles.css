@@ -90,10 +90,12 @@ p{
     font-size: var(--text-small);
 }
 
-#bold{
+.bold1{
     font-family: var(--bangers);
     font-size: var(--text-medium);
 }
+
+
 
 a:hover{
     color: var(--green);
@@ -305,7 +307,7 @@ h4{
     }
 
     #menu li{
-        padding: 100px 0;
+        padding: 0 0;
     }
     
     #menuToggle input:checked ~ ul{
@@ -795,7 +797,7 @@ h4{
         grid-template-rows: auto;
     }
 
-    .sell-section{
+    .sell-div{
         display: flex;
         padding-top: 179px;
         flex-direction: column;
@@ -875,6 +877,13 @@ h4{
         display: flex;
         color: transparent;
     }
+
+    .sell-wrapper svg{
+        max-width: 250px;
+    }
+
+    
+    
 
     
     
@@ -1038,6 +1047,14 @@ h4{
     
     .sell-wrapper{
         width: 90%;
+    }
+
+    .sell-div{
+        width: 100%;
+    }
+
+    .bold{
+        font-size: 3em;
     }
     
    }
