@@ -872,7 +872,8 @@ h4{
     }
 
     .search-container label{
-        display: none;
+        display: flex;
+        color: transparent;
     }
 
     
